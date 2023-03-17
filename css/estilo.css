@@ -10,7 +10,7 @@ body{
 header{
 	width: 100%;
 	height: 50px;
-	background: lightblue;
+	background: #6f1d1b;
 	color: #fff;
 	position: fixed;
 	top: 0;
@@ -31,10 +31,11 @@ h1{
 	height: 100%;
 }
 #banner .contenedor{
+	font-size: 20px;
 	position: absolute;
 	top: 80%;
 	left: 10%;
-	color: #fff;
+	color: #312110;
 	transform: translateX(10px)translateY(-130px);
 }
 .menu a{
@@ -42,11 +43,11 @@ h1{
 	color: #fff;
 	height: 50px;
 	text-decoration: initial;
-	padding: 22px;
+	padding: 15px;
 	border: 0px solid #fff;
 }
 .menu a:hover{
-	background: lightgreen;
+	background: #952624;
 }
 #bienvenidos h2{
 	padding: 15px;
