@@ -78,7 +78,9 @@ h1{
 	max-width: 200px;
 }
 #productos{
-	background: linear-gradient(220.55deg, #FADD76 0%, #9F3311 100%);
+	backgr
+
+	ound: linear-gradient(220.55deg, #FADD76 0%, #9F3311 100%);
 	color: #fff;
 	text-align: center;
 	padding: 30px;
@@ -145,4 +147,58 @@ h1{
 	height: 200px;
 	border-radius: 50%;
 	border: 8px solid #fff
+}
+
+#ubicacion{
+	background: brown;
+	color: #fff;
+	text-align: center;
+	padding: 50px;
+}
+#ubicacion h1{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#ubicacion .contenedor{
+	display: flex;
+	padding: 35px;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+#ubicacion .contenedor iframe{
+	width: 45%;
+	border: 10px solid black;
+}
+
+#ubicacion .contenedor p{
+	padding: 40px;
+	width: 50%;
+	text-align: center;
+}
+
+footer{
+	background: grey;
+}
+footer .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 30px;
+	color: white;
+}
+.copy{
+	font-size: 20px;
+	padding: 20px;
+}
+.red-social{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+}
+
+.red-social a{
+	color: #fff;
+	text-decoration: none;
 }
